@@ -7,4 +7,4 @@ def index():
     return 'Hello World! funciona por favor que tengo sueno v1.0'
 
 if __name__ == '__main__':
-    application.run(host="0.0.0.0", port=80, debug = True)
+    application.run()
